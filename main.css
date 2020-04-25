@@ -158,6 +158,11 @@ button.btn {
 	padding: 40px 0;
 }
 
+.social-btns {
+	font-size: 5rem;
+	text-align: center;
+}
+
 /*--- media queries ---*/
 
 @media (max-width: 575.98px) {
@@ -182,6 +187,14 @@ button.btn {
 	.features {
 		margin: 0;
 	}
-	
+	class^="icon-"],
+	[class*=" icon-"] {
+		display: inline-block;
+		width: 1em;
+		height: 1em;
+		stroke-width: 0;
+		stroke: currentColor;
+		fill: currentColor;
+	}
 
 }
